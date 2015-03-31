@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KWP-galerija</title>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" >
+	<link rel="stylesheet" href="assets/css/normalize.css"/>
+    <link rel="stylesheet" text="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/zadatak3-font.css"/>
+
+    <script src="assets/js/jquery-1.11.2.min.js"></script>
+	<script src="assets/js/jquery-ui.js"></script>
+    <script src="assets/js/zadatak3.js"></script>
+
+    
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<h1>Uvod u KWP</h1>
+			<nav class="mobile-nav-bar">
+		        <a href="#" class="icon-menu"></a>
+				    <ul>
+					  <li>
+						<a href="http://www.mathos.unios.hr/index.php/nastava/matematika-i-racunarstvo/265" target="_blank">Home</a>
+					  </li>
+					  <li>
+						<a href="http://www.mathos.unios.hr/images/homepages/dseverdi/ClientWebProg/HTML-mathos.rar" target="_blank">HTML</a>
+					  </li>
+					  <li>
+						<a href="http://www.mathos.unios.hr/images/homepages/dseverdi/ClientWebProg/Mono_-_Presentation.pdf" target="_blank">CSS</a>
+					  </li>
+					  <li>
+						<a href="http://www.mathos.unios.hr/images/homepages/dseverdi/ClientWebProg/Mono_-_RWD.pdf" target="_blank">RWD</a>
+				 	  </li>
+				 	  <li>
+						<a href="index.html" target="_blank">About</a>
+					  </li>
+				    </ul>
+			</nav>
+		</header>
+	      
+		<main class="main">
+			<h3>Galerija</h3>
+			<div class="main-gallery">
+				<ul>
+					<li>
+						<a href="http://codyhouse.co/">
+							<img src="assets/img/slika1.png" alt="frontend" title="frontend1" class="first-img">
+							<img src="assets/img/slika12.png" alt="HTML, CSS i JS" title="frontend2" class="hover-img">
+						</a>
+					</li>
+					<li>
+						<a href="http://www.realcombiz.com/2014/02/20-useful-html5-code-snippets-you.html">
+							<img src="assets/img/slika2.png" alt="can" title="can1" class="first-img">
+							<img src="assets/img/slika22.png" alt="learning" title="can2" class="hover-img">
+						</a>
+					</li>
+					<li>
+						<a href="https://www.thebestdesigns.com/">
+							<img src="assets/img/slika3.png" alt="be" title="be1" class="first-img">
+							<img src="assets/img/slika32.png" alt="coding" title="be2" class="hover-img">
+						</a>
+					</li>
+					<li>
+						<a href="http://www.creativebloq.com/css3/animation-with-css3-712437">
+							<img src="assets/img/slika4.png" alt="interesting" title="interesting1" class="first-img">
+							<img src="assets/img/slika42.png" alt="getting a job" title="interesting2" class="hover-img">
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="comments">
+				<h3>Ostavite komentar</h3>
+				<form action="#" method="POST" name="forma">
+					<label for="ime">Ime: </label>
+					<br>
+					<input type="text" name="ime" id="ime" placeholder="Upišite ime" />
+					<br>
+					<label for="prezime">Prezime: </label>
+					<br>
+					<input type="text" name="prezime" id="prezime" placeholder="Upišite prezime" />
+					<br>
+					<label for="email">e-mail: </label>
+					<br>
+					<input type="email" name="email"  id="email" placeholder="e-mail adresa, npr: example@mathos.hr" />
+					<br>
+					<label for="phone">Telefon: </label>
+					<br>
+					<input type="text" name="phone" id="phone" placeholder="Broj telefona, npr: 0123456789">
+					<br>
+					<label for="comment">Komentar: </label>
+					<br>
+					<textarea rows="10" name="comment" id="comment" placeholder="Napišite komentar"></textarea>
+					<br>
+					<input type="submit" name="submit" value="Send"/>
+					<button>Cancel</button>
+				</form>
+			</div>
+		</main>
+    </div>
+	<footer class="footer">
+		<small>autor:Mirna Marković</small>
+	</footer>
+</body>
+</hmtl>
