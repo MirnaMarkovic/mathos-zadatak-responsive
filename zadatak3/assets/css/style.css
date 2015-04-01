@@ -289,4 +289,14 @@ body{
 		font-size:1.2em;
 	}
 
+	.comments form input[type="submit"],
+    .comments form button{
+    	width:6.4em;
+	    height:3em;
+        font-size:1.2em;
+        line-height:1.4em;
+	
+    }
+
+
 }
