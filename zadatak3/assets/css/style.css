@@ -12,7 +12,7 @@ img{
 	max-width:100%;
 }
 
-.body{
+body{
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0 auto;
@@ -26,10 +26,11 @@ img{
 	max-width:2048px;
 }
 .header{
-	margin:0 0 20px 0;
+	margin:0 0 40px 0;
 	padding:20px;
 	background-color:#26ADE4;
 	color:white;
+    text-transform:uppercase
 }
 
 .header h1{
@@ -72,6 +73,7 @@ img{
 }
 .mobile-nav-bar li a{
 	font-size:1.2em;
+	color:white;
 }
 
 .main{
@@ -87,7 +89,7 @@ img{
 }
 
 .main-gallery{
-	margin:0 20px 0 20px;	
+	margin:0 20px 40px 20px;	
 }
 .main-gallery ul{
 	padding:0;
@@ -115,7 +117,9 @@ img{
 }
 .main-gallery p{
 	margin:0;
-	padding-top:10px;
+    font-size:1.2em;
+    line-height:1.4em;
+
 }
 
 .comments{
@@ -141,6 +145,7 @@ img{
 }
 .comments form textarea{
 	height:160px;
+	padding-top:6px;
 }
 
 .comments form input:hover,
@@ -153,32 +158,36 @@ img{
 	font-size:1em;
 }
 
-.comments form input[type="submit"]{
-	width:6.25em;
-	height:3em;
-	border:none;
-	background-color:#309141;
+.comments form input[type="submit"],
+.comments form button{
+	width:6em;
+	height:2.4em;
 	color:white;
-	font-weight:bold;
-	text-transform:uppercase;
+    font-size:18px;
+    line-height:1.1em;
+	border-radius:5px;
+}
+.comments form input[type="submit"]{
+	border:3px solid #14B83D;
+	background-color:white;
+	color:#14B83D;
+}
+.comments form button{
+	border:3px solid #FF540D;
+	background-color:white;
+	color:#FF540D;
 }
 
-.comments form button{
-	width:6.25em;
-	height:2.5em;
-	border:none;
-	background-color: #CC2E02;
-	color:white;
-	font-weight:bold;
-	text-transform:uppercase;
-}
+
 .comments form input[type="submit"]:hover,
 .comments form input[type="submit"]:focus{
-     background-color:#4DD667;
+     background-color:#14B83D;
+     color:white;
 }
 .comments form button:hover,
 .comments form button:focus{
      background-color:#FF540D;
+     color:white;
 }
 .footer{
 	vertical-align:bottom;
@@ -232,6 +241,7 @@ img{
 @media only screen and (min-width:60em){
 	.header{
 		overflow:hidden;
+		margin-bottom:40px;
 	}
 	.header h1{
 		width:50%;
@@ -250,10 +260,15 @@ img{
     	padding:0;
     	margin:0 auto;
     	text-align:right;
+        line-height:3.4em;
     }
     .mobile-nav-bar li{
     	display:inline-block;
     	margin:10px;
+    }
+
+    .main h3{
+    	font-size:1.8em;
     }
 
 	.main-gallery li{
