@@ -79,6 +79,7 @@ body{
 .main{
 	margin:0 auto;
 	text-align:center;
+	max-width:90em;
 }
 .main h3{
 	display:inline-block;
